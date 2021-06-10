@@ -200,9 +200,7 @@ public class CardListView extends Div implements AfterNavigationObserver {
     	thread.setName("Feeder thread");
 		thread.start();
 		System.out.println(attachEvent.toString() + "Inside attachevent");
-		UI.getCurrent().getPage()
-				.executeJavaScript("setTimeout(()=>document.getElementById(\"successlayout\").click(),5000)");
-		System.out.println("Clicked....");
+		
     	
     }
     
